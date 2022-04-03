@@ -14,7 +14,7 @@ if (window.top !== window.self) {
         const image = document.createElement("img");
         image.src = "https://raw.githubusercontent.com/willow-rubenstein/thighhighvt-place/main/femboy_place_overlay.png";
         image.onload = () => {
-            image.style = `position: absolute; left: 0; top: 0; width: ${image.width/3}px; height: ${image.height/3}px; image-rendering: pixelated; z-index: 1`;
+            image.style = `position: absolute; left: 0; top: 0; width: ${image.width}px; height: ${image.height}px; image-rendering: pixelated; z-index: 1`;
         };
       
         // Add the image as overlay
